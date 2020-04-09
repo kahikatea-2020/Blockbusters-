@@ -4,7 +4,7 @@
 
 //
 // I think for simplicity keep to one genre
-
+// export default
 movies = [
     {
         title: 'Pacific Rim',
