@@ -14,8 +14,8 @@ movies = [
         quality: '5',
         ageRating:  'PG13',
         stanRating: true, //is a must 
-        release: '',
-        Poster: '',
+        release: ,
+        Poster: '' '',
     }, //we should have a set list of moods btw so everything is consistent
     { 
         title: 'Dragonball Super: Broly', 
@@ -24,9 +24,15 @@ movies = [
         description: 'One fateful day, a Saiyan appears before Goku and Vegeta who they have never seen before: Broly. With the return of Frieza from hell, a fierce battle awaits these three Saiyans who have followed completely different destinies.',
         quality: '5',
         ageRating:'PG13',
+<<<<<<< HEAD
         stanRating: '',
         release: '', 
         Poster: '',
+=======
+        stanRating:,
+        release: , 
+        Poster: '''',
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
     },
     {
         title: 'Schindlers List',
@@ -36,7 +42,7 @@ movies = [
         quality: '8',
         ageRating: 'r16',
         stanRating: true,
-        release: '',
+        release: ,
         Poster: ''
     },
     {
@@ -47,8 +53,8 @@ movies = [
         quality: '1',
         ageRating: 'g',
         stanRating: false,
-        release: '',
-        Poster: '',
+        release: ,
+        Poster: '' '',
     },
     {
         title: 'Scream',
@@ -58,18 +64,27 @@ movies = [
         quality: 4,
         ageRating: 'R',
         stanRating: true,
-        release: '',
-        Poster: '',
+        release: ,
+        Poster: '' '',
     },
     {
         title: 'The Wolf of Wallstreet',
         mood:'fun',
+<<<<<<< HEAD
         genre: '',
         description: '',
         quality: '',
         ageRating: '',
         stanRating: '',
         release: '',
+=======
+        genre:,
+        description:,
+        quality:,
+        ageRating:,
+        stanRating:,
+        release: ,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         Poster: '',
     },
     {
@@ -79,41 +94,65 @@ movies = [
         description: '',
         quality: 5,
         ageRating: 'PG13',
+<<<<<<< HEAD
         stanRating: '',
         release: '',
         Poster: '',
+=======
+        stanRating:,
+        release: ,
+        Poster: '''',
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
     },
      {
         title: 'Friday the 13th',
         mood:'intense' ,
         genre: 'horror',
+<<<<<<< HEAD
         description: '',
         quality: '',
         ageRating: '',
+=======
+        description:,
+        quality: ,
+        ageRating:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         stanRating: true,
-        release: '',
+        release: ,
         Poster: '',
     },
     {
         title: 'The Conjuring',
         mood:'intense',
         genre: 'horror',
+<<<<<<< HEAD
         description: '',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: 7,
         ageRating: 'r16',
         stanRating: true,
-        release: '',
+        release: ,
         Poster: '',
     },
     {
         title: 'Apocalypse Now',
         mood:'intense',
         genre: 'war',
+<<<<<<< HEAD
         description:'',
         quality: '',
         ageRating: '',
         stanRating: '',
         release: '',
+=======
+        description:,
+        quality:,
+        ageRating:,
+        stanRating:,
+        release: ,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         Poster: '',
     },
     {
@@ -124,47 +163,74 @@ movies = [
         quality: '5',
         ageRating: 'pg13',
         stanRating: true,
-        release: '', 
+        release: , 
         Poster: '',
     },
     {
         title: 'Iron Man',
         mood: 'fun',
+<<<<<<< HEAD
         genre: '',
         description: '',
         quality: '',
         ageRating: '',
         stanRating: '',
         release: '',
+=======
+        genre:,
+        description:,
+        quality:,
+        ageRating:,
+        stanRating:,
+        release: ,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         Poster: '',
     },
     {
         title: 'Nightmare before Christmas',
         mood:'Nostalgic',
+<<<<<<< HEAD
         genre: '',
         description: '',
         quality: '',
         ageRating: '',
         stanRating: '',
         release: '',
+=======
+        genre:,
+        description:,
+        quality:,
+        ageRating:,
+        stanRating:,
+        release: ,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         Poster: '',
     },
     {
         title: "Breakfast at Tiffany's",
         mood: 'fun',
+<<<<<<< HEAD
         genre: '',
         description: '',
         quality: '',
         ageRating: '',
         stanRating: '',
         release: '',
+=======
+        genre:,
+        description:,
+        quality:,
+        ageRating:,
+        stanRating:,
+        release: ,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         Poster: '',
     },
     {
         title: 'The Notebook',
         mood: 'sad',
         genre: 'romance',
-        description: '',
+        description:,
         quality: '2',
         ageRating: '',
         stanRating: '',
@@ -175,7 +241,11 @@ movies = [
         title: 'Pulp Fiction',
         mood: 'fun',
         genre: 'comedy',
+<<<<<<< HEAD
         description: '',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '10',
         ageRating: '',
         stanRating: true,
@@ -186,19 +256,32 @@ movies = [
         title: 'Inglorious Basterds',
         mood: 'fun',
         genre: 'war',
+<<<<<<< HEAD
         description: '',
         quality: '10',
         ageRating: '',
         stanRating: true,
         release: '',
+=======
+        description:,
+        quality: '10',
+        ageRating: '',
+        stanRating: true,
+        release:true '',
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         Poser: '',
     },
     {
         title: 'Once Upon A Time In Hollywood',
         mood: 'Different',
         genre: 'comedy',
+<<<<<<< HEAD
         description: '',
         quality: '5',
+=======
+        description:,
+        quality: '10',
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         ageRating: '',
         stanRating: true,
         release: '',
@@ -208,8 +291,13 @@ movies = [
         title: 'Planet Terror',
         mood: 'Different',
         genre: 'horror',
+<<<<<<< HEAD
         description: '',
         quality: 4,
+=======
+        description:,
+        quality: '8',
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         ageRating: '',
         stanRating: true,
         release: '',
@@ -219,8 +307,13 @@ movies = [
         title: 'Scooby Doo',
         mood: 'Nostalgic',
         genre: 'kids',
+<<<<<<< HEAD
         description:'',
         quality: 7,
+=======
+        description:,
+        quality: '7',
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         ageRating: '',
         stanRating: true,
         release: '',
@@ -230,7 +323,11 @@ movies = [
         title: 'The Shining',
         mood: 'intense',
         genre: 'horror',
+<<<<<<< HEAD
         description: '',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '9',
         ageRating: '',
         stanRating: true,
@@ -241,7 +338,11 @@ movies = [
         title: 'A Clockwork Orange',
         mood: 'Different',
         genre: 'comedy',
+<<<<<<< HEAD
         description:'' ,
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '8',
         ageRating: '',
         stanRating: true,
@@ -252,7 +353,11 @@ movies = [
         title: '2001: A Space Oddysey',
         mood: 'intense',
         genre: 'sci-fi',
+<<<<<<< HEAD
         description:'',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '9',
         ageRating: '',
         stanRating: true,
@@ -263,7 +368,11 @@ movies = [
         title: 'Jurassic Park',
         mood: 'fun',
         genre: 'sci-fi',
+<<<<<<< HEAD
         description:'',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '8',
         ageRating: '',
         stanRating: true,
@@ -274,7 +383,11 @@ movies = [
         title: 'Star Wars: A New Hope',
         mood: 'fun',
         genre: 'Sci-Fi',
+<<<<<<< HEAD
         description:'',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '8',
         ageRating: '',
         stanRating: true,
@@ -285,7 +398,11 @@ movies = [
         title: 'Star Wars: The Empire Strikes Back',
         mood: 'fun',
         genre: 'Sci-Fi',
+<<<<<<< HEAD
         description:'',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '9',
         ageRating: '',
         stanRating: true,
@@ -296,7 +413,11 @@ movies = [
         title: 'Star Wars: Return Of The Jedi',
         mood: 'fun',
         genre: 'Sci-Fi',
+<<<<<<< HEAD
         description:'',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '8',
         ageRating: '',
         stanRating: true,
@@ -307,7 +428,11 @@ movies = [
         title: 'Pineapple Express',
         mood: 'fun',
         genre: 'comedy',
+<<<<<<< HEAD
         description:'',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '7',
         ageRating: '',
         stanRating: true,
@@ -318,7 +443,11 @@ movies = [
         title: 'The Room',
         mood: 'schlocky',
         genre: 'romance',
+<<<<<<< HEAD
         description:'',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '6',
         ageRating: '',
         stanRating: false,
@@ -329,7 +458,11 @@ movies = [
         title: 'Cats',
         mood: 'schlocky',
         genre: 'comedy',
+<<<<<<< HEAD
         description:'',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '1',
         ageRating: '',
         stanRating: false,
@@ -340,7 +473,11 @@ movies = [
         title: 'Harold and Maude',
         mood: 'schlocky',
         genre: 'comedy',
+<<<<<<< HEAD
         description:'',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '8',
         ageRating: '',
         stanRating: true,
@@ -351,7 +488,11 @@ movies = [
         title: 'Blow Out',
         mood: 'intense',
         genre: 'thriller',
+<<<<<<< HEAD
         description:'',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '9',
         ageRating: '',
         stanRating: true,
@@ -362,7 +503,11 @@ movies = [
         title: 'Scarface',
         mood: 'intense',
         genre: 'crime',
+<<<<<<< HEAD
         description:'',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '8',
         ageRating: '',
         stanRating: true,
@@ -373,7 +518,11 @@ movies = [
         title: 'Marley and Me',
         mood: 'sad',
         genre: 'drama',
+<<<<<<< HEAD
         description:'',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '8',
         ageRating: '',
         stanRating: true,
@@ -384,7 +533,11 @@ movies = [
         title: 'Million Dollar Baby',
         mood: 'sad',
         genre: 'drama',
+<<<<<<< HEAD
         description:'',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '8',
         ageRating: '',
         stanRating: true,
@@ -395,7 +548,11 @@ movies = [
         title: 'Toy Story',
         mood: 'Nostalgic',
         genre: 'kids',
+<<<<<<< HEAD
         description:'',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '9',
         ageRating: '',
         stanRating: true,
@@ -406,7 +563,11 @@ movies = [
         title: 'Bad Taste',
         mood: 'schlocky',
         genre: 'horror',
+<<<<<<< HEAD
         description:'',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '9',
         ageRating: '',
         stanRating: true,
@@ -417,7 +578,11 @@ movies = [
         title: 'The Man With The X-Ray Eyes',
         mood: 'schlocky',
         genre: 'sci-fi',
+<<<<<<< HEAD
         description:'',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '6',
         ageRating: '',
         stanRating: false,
@@ -428,7 +593,11 @@ movies = [
         title: 'House(Hausu)',
         mood: 'different',
         genre: 'horror',
+<<<<<<< HEAD
         description: '',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '8',
         ageRating: '',
         stanRating: true,
@@ -439,7 +608,11 @@ movies = [
         title: 'Mulholland Drive',
         mood: 'different',
         genre: 'horror',
+<<<<<<< HEAD
         description: '',
+=======
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '8',
         ageRating: '',
         stanRating: true,
@@ -450,7 +623,22 @@ movies = [
         title: 'Spy Kids',
         mood: 'fun',
         genre: 'kids',
+<<<<<<< HEAD
         description: '',
+=======
+        description:,
+        quality: '8',
+        ageRating: '',
+        stanRating: true,
+        release: '',
+        Poser: '',
+    },
+    {
+        title: 'The Raid',
+        mood: 'fun',
+        genre: 'action',
+        description:,
+>>>>>>> a1f525418d60501d8fdf176b96b73deeaf433b29
         quality: '8',
         ageRating: '',
         stanRating: true,
