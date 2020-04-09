@@ -1,0 +1,31 @@
+.footer{
+  height:3em;
+  width: 100%;
+  position: relative;
+  vertical-align: middle;
+  background: rgb(2,0,36);
+  background: linear-gradient(270deg, rgba(2,0,36,1) 28%, rgba(11,11,172,1) 49%);
+ 
+}
+
+.footerText{
+  margin:0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-family: sans-serif;
+  color: #ffbd22;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  background: rgb(2,0,36);
+  background: linear-gradient(270deg, rgba(2,0,36,1) 28%, rgba(11,11,172,1) 49%);
+}
+
+.home {
+  background-color: black;
+}
