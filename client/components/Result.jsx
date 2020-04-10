@@ -1,21 +1,40 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import movieData from '../../Data/movies.js'
 
 
-const Result = () => {
+const Result = ({ match }) => {
+    const selection = match.params.choice
+    const narrowDown = movieData.filter(movie => movie.mood === selection)
+
     return (
         <>
-        <div className='Movie-Results'>
-            <h1>Your recommendations are:</h1>
-            <h3>Click on the poster to learn more</h3>
-        </div>
-        <div>
-            <div><img src='/images/Posters1.png'></img></div>
-            <div><img src='/images/Posters15.png'></img></div>
-            <div><img src='/images/Posters32.png'></img></div>
-        </div>
-        <button>Pick for Me</button>
+            <div className="resultsdiv">
+                <div className='Movie-Results'>
+                    <h3>Your recommendations for {selection} movies are:</h3>
+                    <h3>Click on the poster to learn more</h3>
+                </div>
+                <div className="resultImage">
+                    <div className="resultsDisplay">
+                        {narrowDown.map((movie, key) => {
+                            return (
+                                    <div className="resultsCollection">
+                                        <Link className="listImage" to={`/Movie/${movie.id}`}><img className="listImage" src={`/images/${movie.Poster}`} /> </Link>
+                                        <h3 className="listItem">{movie.title}</h3>
+                                    </div>
+                            )
+                        })}
+
+                    </div>
+
+                </div>
+                    <div className="pickMeButton">
+                        <button className="button">Pick for Me</button>
+                    </div>
+            </div >
         </>
     )
 }
+
 
 export default Result

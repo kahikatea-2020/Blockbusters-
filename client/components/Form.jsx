@@ -1,12 +1,51 @@
 import React from 'react'
-// import MovieData from '../Data/movies.js'
+import { Link } from 'react-router-dom'
 
+// const movie = MovieData.map(movie => {
+//     movie.mood  
+// })
+// console.log(MovieData)
 
+// class FormData extends React.Component {
+//  constructor(props) {
+//      super(props)
+//      this.state = {
+//          sad: '',
+//          fun: '',
+//          nostalgic: '',
+//          weird: '',
+//          schlocky: '',
+//          intense: ''
+//      } 
+//  }
+// }
+
+// return <li key={id}><Link to={`/list/${rankKey}`}>{rankKey}</Link></li>
+// <Link to={`/result/sad`}> 
 const Form = () => {
     
     return (
         <form>
-            <button></button>
+        <h3>What kind of mood are you in?</h3>
+        <div className="formjsxDiv">
+            <div className="formjsxButton">
+                <Link  to='/Result/sad'>
+                    <button className="buttonForm" >Sad</button>
+                </Link>
+                <Link  to='/Result/fun'>
+                    <button className="buttonForm" >Fun</button>
+                </Link>
+                <Link  to='/Result/nostalgic'>
+                    <button className="buttonForm">Nostalgic</button>
+                </Link>
+                <Link  to='/Result/schlocky'>
+                    <button className="buttonForm">Schlocky</button>
+                </Link>
+                <Link  to='/Result/intense'>
+                    <button className="buttonForm">Intense</button>
+                </Link>        
+            </div>
+        </div>
         </form>
     )
 }
