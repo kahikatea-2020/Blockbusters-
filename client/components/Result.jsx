@@ -9,15 +9,13 @@ const Result = () => {
             <h3>Click on the poster to learn more</h3>
         </div>
         <div>
-            <div><img src='../../server/public/images'></img></div>
-            <div><img src=''></img></div>
-            <div><img src=''></img></div>
+            <div><img src='/images/Posters1.png'></img></div>
+            <div><img src='/images/Posters15.png'></img></div>
+            <div><img src='/images/Posters32.png'></img></div>
         </div>
         <button>Pick for Me</button>
         </>
     )
 }
 
-
-//\server\public\images
 export default Result

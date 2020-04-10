@@ -1,4 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
+import Form from './Form.jsx'
+
 
 const Home = () => {
     return (
@@ -11,7 +15,10 @@ const Home = () => {
             </div>
             <div className='homeImage'>
                 <img src='https://placedog.net/500' alt='people enjoying blockbuster'></img>
-                <button>Click to Start!</button>
+                <Link  to='./Form.jsx'>
+                <button className="button" >Click to Start!</button>
+                </Link>
+                
             </div>
         </>
     )

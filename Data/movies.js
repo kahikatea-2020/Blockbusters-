@@ -5,7 +5,7 @@
 //
 // I think for simplicity keep to one genre
 // export default
-movies = [
+const movies = [
     {   id: 1,
         title: 'Pacific Rim',
         mood: 'fun',
@@ -25,7 +25,7 @@ movies = [
         description: 'One fateful day, a Saiyan appears before Goku and Vegeta who they have never seen before: Broly. With the return of Frieza from hell, a fierce battle awaits these three Saiyans who have followed completely different destinies.',
         quality: 5,
         ageRating:'PG13',
-        stanRating: '',
+        stanRating: true,
         release: '2018', 
         Poster: 'Posters2.png',
     },
@@ -41,7 +41,7 @@ movies = [
         Poster: 'Posters3.png'
     },
     {   id: 4,
-        title: 'barbie and the twelve dancing princesses',
+        title: 'Barbie and the Twelve Dancing Princesses',
         mood: 'Nostalgic',
         genre: 'kids',
         description: "The widowed King Randolph enlists the help of his cousin to teach his daughters the proper royal etiquette. Instead, she bans all dancing in the palace. Can the twelve dancing princesses save the kingdom with their late mother's gift?",
@@ -69,7 +69,7 @@ movies = [
         description: 'Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.',
         quality: 4,
         ageRating: '',
-        stanRating: '',
+        stanRating: true,
         release: '2013',
         Poster: 'Posters6.png',
     },
@@ -80,7 +80,7 @@ movies = [
         description: 'The crypto-zoological agency Monarch faces off against a battery of god-sized monsters, including the mighty Godzilla, who collides with Mothra, Rodan, and his ultimate nemesis, the three-headed King Ghidorah.',
         quality: 5,
         ageRating: 'PG13',
-        stanRating: '',
+        stanRating: true,
         release: '201',
         Poster: 'Posters7.png',
     },
@@ -113,7 +113,7 @@ movies = [
         description:'A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.',
         quality: '',
         ageRating: '',
-        stanRating: '',
+        stanRating: true,
         release: '1979',
         Poster: 'Posters10.png',
     },
@@ -135,7 +135,7 @@ movies = [
         description: 'After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.',
         quality: 4,
         ageRating: '',
-        stanRating: '',
+        stanRating: true,
         release: '2008',
         Poster: 'Posters12.png',
     },
@@ -146,7 +146,7 @@ movies = [
         description: 'Jack Skellington, king of Halloween Town, discovers Christmas Town, but his attempts to bring Christmas to his home causes confusion.',
         quality: 3,
         ageRating: '',
-        stanRating: '',
+        stanRating: true,
         release: '1993',
         Poster: 'Posters13.png',
     },
@@ -157,7 +157,7 @@ movies = [
         description: 'A young New York socialite becomes interested in a young man who has moved into her apartment building, but her past threatens to get in the way.',
         quality: 2,
         ageRating: '',
-        stanRating: '',
+        stanRating: false,
         release: '1961',
         Poster: 'Posters14.png',
     },
@@ -168,7 +168,7 @@ movies = [
         description: 'A poor yet passionate young man falls in love with a rich young woman, giving her a sense of freedom, but they are soon separated because of their social differences.',
         quality: 5,
         ageRating: '',
-        stanRating: '',
+        stanRating: true,
         release: '2004',
         Poser: 'Posters15.png',
     },
@@ -472,3 +472,5 @@ movies = [
     }
     
 ]
+
+export default movies

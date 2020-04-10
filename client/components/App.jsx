@@ -14,13 +14,12 @@ import Result from './Result'
 const App = () => {
   return (
     <Router>
-      <div className='Home'>
-        <Route path='/' component={Header} />
-          <h1>Our website is temporarily down, please try again later</h1>
+    <Route path='/' component={Header} />
+      <div className='home'>
         <Route exact path='/' component={Home} />
         <Route exact path='/result' component={Result} />
-        <Route path='/' component={Footer} />
       </div>
+    <Route path='/' component={Footer} />
     </Router>
   )
 }

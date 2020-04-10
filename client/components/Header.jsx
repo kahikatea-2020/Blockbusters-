@@ -4,8 +4,8 @@ const Header = () => {
     return (
         <>
            <div className="navBar">
-               <nav>
-                <img src = 'https://placedog.net/200' alt='originalLogo'></img>
+               <nav className="nav">
+                <img className="logo" src = '/images/Logo.png' alt='originalLogo'></img>
                     <p>Home</p>
                     <p>Library</p>
                     <p>About</p>
